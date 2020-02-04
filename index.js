@@ -14,7 +14,7 @@ const config = {
      }
   },
   "host": process.env.sockserve_host ? process.env.sockserve_host : "http://127.0.0.1",
-  "port": Number.parseInt(process.env.sockserve_port ? process.env.sockserve_port : 3001)
+  "port": Number.parseInt(process.env.sockserve_port ? process.env.sockserve_port : 4001)
 };
 config.url = config.host + ":" + config.port + "/s/";
 
